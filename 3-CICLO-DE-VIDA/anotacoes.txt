@@ -1,0 +1,17 @@
+# Ciclo de Vida
+
+Existem 4 fases do ciclo de vida
+
+ - Inicialização : recebe primeiro as propriedades e os estados (props e state)
+
+ - Montagem: usado depois que o component é renderizado. (componetDidMount())
+
+ - Atualização: executa toda vez que o componete recebe uma atualização. Ex: uma propriedade ou valor no estado, o react renderiza seus elementos novamente. (shouldComponetUpdate, componetWillUpdate)
+          shouldComponetUpdate --> verifica se pode ou não atualizar o componente
+          componetWillUpdate --> se shouldComponetUpdate puder atualizar o componetWillUpdate entra. depois renderiza o componente novamente
+          componetWillUpdate --> depois que renderização é feita, esse ciclo pode fazer algum evento pos renderização. 
+
+ - Desmontagem: componente é destruido, não fica ali pra sempre (componentWillUnmount)
+
+
+ -componentDidCatch: é qiando o react quebra
