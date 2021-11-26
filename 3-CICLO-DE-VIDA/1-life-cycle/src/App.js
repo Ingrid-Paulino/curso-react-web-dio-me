@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 import Twitter from './Twitter';
 
 class App extends Component {
+  
   state = {
     loading: false,
     actived: true
@@ -10,7 +11,7 @@ class App extends Component {
   componentDidMount() {
     setTimeout(() => {
       this.setState({
-        loading:true
+        loading: true
       })
     }, 3000)
   }
@@ -23,16 +24,13 @@ class App extends Component {
   }
 
   render() {
-    const posts = [
-      {
-        title: 'xpt',
-        description: 'foo'
-      },
-      {
-        title: 'xpt',
-        description: 'foo'
-      },
-    ]
+    const posts = [{
+      title: 'xpto',
+      description: 'foo'
+    },{
+      title: 'xpto',
+      description: 'foo'
+    }]
 
     return (
       <div>
@@ -41,7 +39,6 @@ class App extends Component {
         {this.state.actived && (
           <Twitter posts={posts} loading={this.state.loading} />
         )}
-        
       </div>
     )
   }

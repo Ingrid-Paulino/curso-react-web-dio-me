@@ -1,7 +1,5 @@
 # Ciclo de Vida
 
-Existem 4 fases do ciclo de vida
-
  - Inicialização : recebe primeiro as propriedades e os estados (props e state)
 
  - Montagem: usado depois que o component é renderizado. (componetDidMount())
@@ -14,4 +12,4 @@ Existem 4 fases do ciclo de vida
  - Desmontagem: componente é destruido, não fica ali pra sempre (componentWillUnmount)
 
 
- -componentDidCatch: é qiando o react quebra
+ -componentDidCatch: é quando o react quebra
