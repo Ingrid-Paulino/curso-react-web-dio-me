@@ -1,0 +1,2 @@
+#FRAGMENTS
+É um padrao comum no react, é que um componente pode retornar múltiplos elementos. Os fragmentos permitem agrupar uma lista de filhos sem adicionar nós extras ao DOM.
